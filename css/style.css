@@ -1,0 +1,448 @@
+nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo{
+    margin: 40px;
+}
+.logo img{
+    width: 206px;
+    height: 100px;
+}
+  
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+}
+  
+.nav-links li{
+    margin: 0 50px;
+}
+  
+.nav-links a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: black;
+    margin-right: 40px;
+}
+.bg_img{
+    position: relative;
+    background-image: url(../images/menu_bg.png);
+    width: 100%;
+    height: 619px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.food_app{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 0%;
+    transform: translate(-50%,50%);
+    bottom: 88.96%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.1px;
+
+    color: #F7F7F7;
+    margin-top: 75px;
+    width: 180px;
+
+}
+h1{
+    position: absolute;
+    left: 3.38%;
+    right: 3.38%;
+    top: 5.56%;
+    bottom: 5.56%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.text_download{
+    position: absolute;
+    left: 12.23%;
+    right: 12.09%;
+    top: 10.42%;
+    bottom: 50%;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #F7F7F7;
+    margin-top: 300px;
+}
+.playstore_btn{
+    width: 236px;
+    height: 68px;
+
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: 0.1px;
+    border-color: transparent;
+
+    color: #FFFFFF;
+
+
+    margin-left: 50px;
+    margin: 405px 683px 146px 521px;
+    cursor: pointer;
+}
+.appstore_btn{
+    position: absolute;
+    width: 236px;
+    height: 68px;
+    left: 791px;
+    top: 404px;
+
+    position: absolute;
+    left: 0%;
+    right: -3.36%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    border-radius: 30px;
+    border-color: white;
+    background-color: transparent;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+    margin: 405px 413px 146px 790px;
+    cursor: pointer;
+}
+
+/* section mobile photos 3D */
+
+.button_bg{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.phone_first{
+    position: absolute;
+    left: 600px;
+    top: 610px;
+    z-index: 1;
+}
+.phone_second{
+    position: absolute;
+    left: 950px;
+    top: 800px;
+}
+
+/* section 2 mobile photos */
+
+hr{
+    position: absolute;
+    width: 880px;
+    height: 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    margin-top: 600px;
+
+    border: 3px solid #E4E4E4;
+}
+h2{
+    position: absolute;
+    width: 500px;
+    height: 36px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,50%);
+    margin-top: 670px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+
+    letter-spacing: 0.1px;
+
+    color: #000000;
+
+    opacity: 0.8;
+}
+.phone_one{
+    position: absolute;
+    width: 580px;
+    height: 850px;
+    margin: 800px 890px 200px 245px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+.mini_title{
+    width: 232px;
+    height: 36px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    margin: 1000px 490px 0 720px;
+
+}
+.section_two{
+    position: relative;
+}
+.big_title{
+    margin: 1100px 160px 0 980px;
+    width: 550px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+    position: absolute;
+
+}
+.describe{
+    position: absolute;
+    margin: 1250px 160px 0 980px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    letter-spacing: 0.2px;
+
+    color: #737373;
+
+    width: 467px;
+    height: 76px;
+}
+
+/* section three */
+
+
+.section_three{
+    margin-top: 700px;
+}
+
+.phone_two_two{
+    position: absolute;
+    width: 580px;
+    height: 850px;
+    margin: 800px 890px 200px 1045px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+.mini_title_two{
+    width: 232px;
+    height: 36px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    margin: 2250px 490px 0 100px;
+
+}
+
+.big_title_two{
+    margin: 1100px 160px 0 360px;
+    width: 550px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+    position: absolute;
+
+}
+.describe_two{
+    position: absolute;
+    margin: 1250px 160px 0 360px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    letter-spacing: 0.2px;
+
+    color: #737373;
+
+    width: 467px;
+    height: 76px;
+}
+
+/* section four */
+
+.phone_three_three{
+    position: absolute;
+    width: 580px;
+    height: 850px;
+    margin: 800px 890px 200px 245px;
+    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+.mini_title_three{
+    width: 232px;
+    height: 36px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+    color: #FA4A0C;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    margin: 1000px 490px 0 720px;
+
+}
+.big_title_three{
+    margin: 1100px 160px 0 980px;
+    width: 550px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+
+    color: #252B42;
+    position: absolute;
+
+}
+.describe_three{
+    position: absolute;
+    margin: 1250px 160px 0 980px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+
+    color: #737373;
+
+    width: 467px;
+    height: 76px;
+}
+.section_four{
+    position: relative;
+    margin-top: 1400px;
+}
+
+/* section 5 background photo */
+
+.last_bg{
+    margin-top: 3000px;
+}
+.last_img{
+    position: relative;
+    background-image: url(../images/downbg.png);
+    width: 100%;
+    height: 619px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer */
+
+.icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.icons_social{
+    padding: 60px;
+}
+.logo_footer{
+    position: absolute;
+    margin: 20px 1200px 0 0;
+}
